@@ -12,12 +12,17 @@ Este repositorio contiene los materiales para las clases de programación para e
 
 **Nota:** Esta sección se irá actualizando a medida que se añadan nuevas clases. 
 
-**Clase 1: Introducción a la programación**
+**Clase 1: Temas asociados a la programación**
 
-* [01 - Prueba exploratoria](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE%2004-03-2024/01%20-%20Prueba%20exploratoria.yaml)
-* [02 - Temas asociados a la programación](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE%2004-03-2024/02%20-%20Temas%20asociados%20a%20la%20programaci%C3%B3n.yaml)
-* [02.5 - Uso de herramientas](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE%2004-03-2024/02.5%20-%20Uso%20de%20herramientas.yaml)
-* [03 - Análisis sobre la programación](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE%2004-03-2024/03%20-%20Analisis%20de%20la%20programaci%C3%B3n.yaml)
+* [01 - Prueba exploratoria](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-01%2004-03-2024/01%20-%20Prueba%20exploratoria.yaml)
+* [02 - Temas asociados a la programación](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-01%2004-03-2024/02%20-%20Temas%20asociados%20a%20la%20programaci%C3%B3n.yaml)
+* [02.5 - Uso de herramientas](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-01%2004-03-2024/02.5%20-%20Uso%20de%20herramientas.yaml)
+* [03 - Análisis sobre la programación](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-01%2004-03-2024/03%20-%20Analisis%20de%20la%20programaci%C3%B3n.yaml)
 
 **Clase 2: Introducción a la programación**
 
+* [00 - Temario](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-02%2011-03-2024/00%20-%20temario.yaml)
+* [01 - Cliente-Servidor](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-02%2011-03-2024/01%20-%20cliente-servidor.txt)
+* [02 - PHP como lenguaje de servidor](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-02%2011-03-2024/02%20-%20PHP%20como%20lenguaje%20de%20servidor)
+* [03 - Variables](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-02%2011-03-2024/03%20-%20variables.txt)
+* [04 - echo - Mostrar datos al cliente](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-02%2011-03-2024/04%20-%20echo%20-%20Mostrar%20datos%20al%20cliente.txt)
