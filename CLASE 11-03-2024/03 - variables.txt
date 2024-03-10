@@ -1,0 +1,47 @@
+Variables:
+  Almacenan datos que se pueden usar en el código.
+  Deben ser declaradas antes de usarse.
+
+  Tipos de datos en PHP:
+    Primitivos:
+        string: Cadenas de texto.
+        integer: Números enteros.
+        float: Números decimales.
+        boolean: Valores true o false.
+    Compuestos:
+        array: Colecciones de datos ordenadas.
+        object: Instancias de clases con propiedades y métodos.
+
+/**
+ * La declaración de variables en php puede hacerse de diferentes formas
+ * En este caso vamos a explorar una forma básica.
+ * 
+ * En los dos primeros casos, se hace una declaración que incluye el tipado, es decir, se indica el tipo de datos de la variable que se declara.
+ * En los otros casos no se especifica el tipado, sin embargo, podemos usar el var_dump para comprobar cómo el lenguaje hace la inferencia.
+ */
+
+
+// **Variable string**
+$nombre = (string) "Juan Pérez";
+
+// **Variable entera**
+$edad = (int) 30.75;
+
+// **Variable decimal**
+$estatura = 1.75;
+
+// **Variable booleana**
+$esSoltero = (bool) false;
+
+// **Variable array**
+$colores = ["rojo", "verde", "azul"];
+
+// **Variable objeto**
+$fecha = new DateTime();
+
+// **Variable NULL**
+$valorNulo = null;
+
+// **Variable indefinida**
+$variableIndefinida;
+

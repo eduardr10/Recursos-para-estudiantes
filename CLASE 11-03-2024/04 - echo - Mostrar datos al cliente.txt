@@ -1,0 +1,7 @@
+Mostrar datos al cliente con PHP:
+  echo: Imprime texto directamente en la salida.
+  Ejemplo:
+      <?php
+      $nombre = "Ana";
+      $edad = 25;
+      echo "Hola, mi nombre es $nombre y tengo $edad años.";

@@ -1,0 +1,6 @@
+PHP como lenguaje de servidor:
+    Una vez se comprende la arquitectura cliente-servidor, es más fácil imaginar a qué se refiere que php sea un lenguaje de servidor, es decir, un lenguaje backend. 
+    Cuando un cliente hace una solicitud http que es recibida en el servidor web, php se encargará de interpretar el código línea a línea y finalmente enviar al cliente (navegador) la respuesta en un formato que este lo pueda interpretar
+    Características:
+        Lenguaje de scripting del lado del servidor.
+        Código interpretado por el servidor, no por el navegador.

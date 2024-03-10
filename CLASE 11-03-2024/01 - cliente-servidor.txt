@@ -1,0 +1,19 @@
+Cliente-Servidor: Una analogía sencilla
+    Imagina un restaurante. Cuando entras, eres el cliente y el restaurante es el servidor:
+
+    1. Introducción:
+        Cliente: El que pide (tú, el comensal).
+        Servidor: El que atiende y da lo que se pide (el restaurante).
+
+    2. Funcionamiento:
+        Solicitud del cliente: Haces un pedido al camarero (una petición HTTP).
+        Procesamiento del servidor: El restaurante prepara tu plato (genera una respuesta).
+        Envío de la respuesta: El camarero te trae la comida (envía la respuesta al cliente).
+        
+    Ejemplos:
+    En internet, tu navegador web es el cliente y el servidor web es el restaurante.
+    Las aplicaciones móviles son clientes que piden información a APIs (servidores especializados).
+
+    Notas:
+        Un servidor puede permitir la conexión de múltiples clientes.
+        Esta arquitectura permite mantener integridad de datos. (Lo hablamos por audio)

@@ -1,0 +1,39 @@
+Cliente-servidor:
+  Introducción:
+    Definición de cliente y servidor en el contexto web.
+    Analogía con un restaurante para ilustrar la interacción.
+  Funcionamiento:
+    Solicitud del cliente (petición HTTP).
+    Procesamiento del servidor (generación de respuesta).
+    Envío de la respuesta al cliente.
+  Ejemplos:
+    Navegador web como cliente, servidor web como servidor.
+    Aplicaciones móviles como clientes, API como servidores.
+
+PHP como lenguaje de servidor:
+  Características:
+    Lenguaje de scripting del lado del servidor.
+    Código interpretado por el servidor, no por el navegador.
+
+
+Variables:
+  Almacenan datos que se pueden usar en el código.
+  Deben ser declaradas antes de usarse.
+
+Tipos de datos en PHP:
+  Primitivos:
+    string: Cadenas de texto.
+    integer: Números enteros.
+    float: Números decimales.
+    boolean: Valores true o false.
+  Compuestos:
+    array: Colecciones de datos ordenadas.
+    object: Instancias de clases con propiedades y métodos.
+
+Mostrar datos al cliente con PHP:
+  echo: Imprime texto directamente en la salida.
+  Ejemplo:
+      <?php
+      $nombre = "Ana";
+      $edad = 25;
+      echo "Hola, mi nombre es $nombre y tengo $edad años.";
