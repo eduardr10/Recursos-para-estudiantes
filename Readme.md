@@ -3,10 +3,21 @@
 ## Descripción
 
 Este repositorio contiene los materiales para las clases de programación para el período 1-2024.
+Durante este período usaremos php como lenguaje de programación. Sin embargo, los fundamentos son aplicables a otros lenguajes ya que cambia la sintaxis y poco más.
+
+Para windows, instalar Laragon y su editor de texto preferido. En mi caso, uso VsCode, que con unas extensiones se puede llegar a comportar similar a un IDE.
+
+[Laragon](https://laragon.org/)
+[Visual studio code](https://code.visualstudio.com/)
+
+De manera opcional se pueden instalar composer y git, que son herramientas que usaremos al final del semestre.:
+
+[Composer](https://getcomposer.org/)
+[Git](https://git-scm.com/)
 
 ## Estructura
 
-* **Materiales:** Cada carpeta de clase contiene los archivos de texto, documentos y otros materiales utilizados en la clase.
+* **Recursos:** Cada carpeta de clase contiene los archivos de texto, documentos y otros materiales utilizados en la clase.
 
 ## Enlaces a las clases
 
