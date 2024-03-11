@@ -7,13 +7,13 @@ Durante este período usaremos php como lenguaje de programación. Sin embargo, 
 
 Para windows, instalar Laragon y su editor de texto preferido. En mi caso, uso VsCode, que con unas extensiones se puede llegar a comportar similar a un IDE.
 
-[Laragon](https://laragon.org/)
-[Visual studio code](https://code.visualstudio.com/)
+* [Laragon](https://laragon.org/)
+* [Visual studio code](https://code.visualstudio.com/)
 
 De manera opcional se pueden instalar composer y git, que son herramientas que usaremos al final del semestre.:
 
-[Composer](https://getcomposer.org/)
-[Git](https://git-scm.com/)
+* [Composer](https://getcomposer.org/)
+* [Git](https://git-scm.com/)
 
 ## Estructura
 
