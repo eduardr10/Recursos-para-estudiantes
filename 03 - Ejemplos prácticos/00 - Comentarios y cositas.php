@@ -32,3 +32,9 @@
  * Para ejecutar código php podemos usar el navegador o la terminal. 
  * Normalmente se usa el navegador
  */
+
+/**
+ * Podemos escribir/integrar código HTML desde PHP
+ * De ese modo mostrar datos dinámicos al usuario
+ * echo "<p>$nombre</p>"
+ */
