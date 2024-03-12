@@ -37,3 +37,7 @@ De manera opcional se pueden instalar composer y git, que son herramientas que u
 * [02 - PHP como lenguaje de servidor](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-02%2011-03-2024/02%20-%20PHP%20como%20lenguaje%20de%20servidor)
 * [03 - Variables](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-02%2011-03-2024/03%20-%20variables.txt)
 * [04 - echo - Mostrar datos al cliente](https://github.com/eduardr10/Recursos-para-estudiantes/blob/main/CLASE-02%2011-03-2024/04%20-%20echo%20-%20Mostrar%20datos%20al%20cliente.txt)
+
+**Ejemplos de código**
+
+* [Carpeta con ejemplos](https://github.com/eduardr10/Recursos-para-estudiantes/tree/main/03%20-%20Ejemplos%20pr%C3%A1cticos)
