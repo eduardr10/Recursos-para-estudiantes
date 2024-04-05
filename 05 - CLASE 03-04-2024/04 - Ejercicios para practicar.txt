@@ -1,0 +1,18 @@
+Nivel Básico:
+* Escribir una función que imprima "Hola Mundo".
+* Escribir una función que sume dos números dados como parámetros.
+* Escribir una función que calcule el área de un triángulo dado su base y altura.
+* Escribir una función que determine si un número dado es par o impar.
+* Escribir una función que convierta grados Celsius a Fahrenheit.
+Nivel Intermedio:
+* Escribir una función que tome un array de números como parámetro y devuelva la suma de todos los elementos.
+* Escribir una función que tome un array de números como parámetro y devuelva el número más grande.
+* Escribir una función que tome una cadena como parámetro y devuelva la cadena invertida.
+* Escribir una función que tome un número como parámetro y devuelva el factorial de ese número.
+* Escribir una función que tome un número como parámetro y devuelva True si es primo, False en caso contrario.
+Nivel Avanzado:
+* Escribir una función que tome un número como parámetro y devuelva una lista de sus divisores.
+* Escribir una función que tome un número como parámetro y devuelva una lista de todos los números primos menores que él.
+* Escribir una función que tome dos arrays como parámetros y devuelva un nuevo array con los elementos comunes a ambos.
+* Escribir una función que tome un número como parámetro y devuelva la secuencia de Fibonacci hasta ese número.
+* Escribir una función que tome una lista de palabras como parámetro y devuelva la palabra más larga.

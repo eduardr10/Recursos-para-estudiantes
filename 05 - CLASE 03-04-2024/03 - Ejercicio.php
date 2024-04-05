@@ -23,6 +23,7 @@ $students = [
     'Jesús Yendis',
     'Hans Rivera',
     'Orianna Mata',
+    'Jesús Brito'
 ];
 
 $teachers = [
@@ -40,5 +41,4 @@ function asign_teacher($student, $teachers)
 }
 
 
-$selected = get_a_random_element($students);
-echo json_encode(asign_teacher($selected, $teachers));
+echo asign_teacher(get_a_random_element($students), $teachers);
