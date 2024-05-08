@@ -19,7 +19,7 @@ De manera opcional se pueden instalar composer y git, que son herramientas que u
 
 * **Recursos:** Cada carpeta de clase contiene los archivos de texto, documentos y otros materiales utilizados en la clase.
 
-## Enlaces a las clases
+<!-- ## Enlaces a las clases
 
 **Nota:** Esta sección se irá actualizando a medida que se añadan nuevas clases. 
 
@@ -40,4 +40,4 @@ De manera opcional se pueden instalar composer y git, que son herramientas que u
 
 **Ejemplos de código**
 
-* [Carpeta con ejemplos](https://github.com/eduardr10/Recursos-para-estudiantes/tree/main/03%20-%20Ejemplos%20pr%C3%A1cticos)
+* [Carpeta con ejemplos](https://github.com/eduardr10/Recursos-para-estudiantes/tree/main/03%20-%20Ejemplos%20pr%C3%A1cticos) -->
