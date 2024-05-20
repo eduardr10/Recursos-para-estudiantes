@@ -1,5 +1,6 @@
 {
     "files.exclude": {
         "**/.git": false
-    }
+    },
+    "CodeGPT.apiKey": "Google AI Studio"
 }

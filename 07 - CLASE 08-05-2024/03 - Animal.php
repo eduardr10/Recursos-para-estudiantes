@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * **Ejercicio 3: Creando una jerarquía de clases con herencia**
+
+Diseñar una jerarquía de clases a partir de la clase "Animal" que incluya las subclases "Perro" y "Gato". Cada subclase debe tener atributos y métodos específicos (por ejemplo, raza, ladrar, maullar). Implementar un método general en la clase "Animal" para emitir un sonido (que las subclases puedan redefinir).
+ */
+
 class Animal
 {
     public function __construct(private $name, private $age)
@@ -24,17 +30,14 @@ class Animal
 
 class Dog extends Animal
 {
-    private $breed;
-
-    public function __construct($name, $age, $breed)
+    public function __construct($name, $age, private $breed)
     {
         parent::__construct($name, $age);
-        $this->breed = $breed;
     }
 
     public function makeSound()
     {
-        return "Bark!";
+        return "Guau!";
     }
 
     public function getBreed()
@@ -45,17 +48,14 @@ class Dog extends Animal
 
 class Cat extends Animal
 {
-    private $color;
-
-    public function __construct($name, $age, $color)
+    public function __construct($name, $age, private $color)
     {
         parent::__construct($name, $age);
-        $this->color = $color;
     }
 
     public function makeSound()
     {
-        return "Meow!";
+        return "Miau!";
     }
 
     public function getColor()
@@ -64,11 +64,9 @@ class Cat extends Animal
     }
 }
 
-$dog = new Dog(name: "Max", age: 3, breed: "Labrador Retriever");
-$cat = new Cat(name: "Whiskers", age: 2, color: "Orange");
+$dog = new Dog("Max", 3, "Labrador Retriever");
+$cat = new Cat("Whiskers", 2, "Orange");
 
-echo $dog->getName() . " (" . $dog->getBreed() . ") makes sound: ";
-$dog->makeSound(); // Output: Bark!
+echo $dog->getName() . " (" . $dog->getBreed() . ") makes sound: "  . $dog->makeSound() . "\n";
 
-echo $cat->getName() . " (" . $cat->getColor() . ") makes sound: ";
-$cat->makeSound(); // Output: Meow!
+echo $cat->getName() . " (" . $cat->getColor() . ") makes sound: "  . $cat->makeSound();

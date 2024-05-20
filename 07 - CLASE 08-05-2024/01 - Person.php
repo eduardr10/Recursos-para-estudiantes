@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Crear una clase llamada "Persona" que tenga los siguientes atributos: nombre, apellido, edad y género. Definir un constructor que inicialice los atributos y métodos para:
+
+ * Obtener el nombre completo (nombre + apellido).
+ * Cambiar la edad.
+ * Indicar si la persona es mayor de edad
+ */
+
 class Person
 {
 
@@ -42,10 +50,23 @@ class Person
     public function setAge($age)
     {
         $this->age = $age;
+        return $this->age;
     }
 
     public function isAdult()
     {
         return $this->age >= 18;
     }
+}
+
+$persona1 = new Person("Libny", "Córdova", "32", "Femenino");
+
+$persona1->setAge(17);
+// echo $persona1->getFullName();
+// var_dump($persona1);
+// echo $persona1->isAdult();
+if ($persona1->isAdult()) {
+    echo "Sí es adulta";
+} else {
+    echo "No es adulta";
 }

@@ -1,4 +1,15 @@
 <?php
+
+/**
+ * **Ejercicio 2: Administrando una cuenta bancaria**
+
+Crear una clase "CuentaBancaria" que tenga los atributos: número de cuenta, nombre del titular, saldo y tipo de cuenta (ahorro o corriente). Implementar métodos para:
+
+ * Consultar el saldo.
+ * Depositar dinero.
+ * Retirar dinero (validando que el saldo sea suficiente).
+ * Obtener un resumen de la cuenta (número, titular, tipo, saldo).
+ */
 class BankAccount
 {
 
@@ -26,7 +37,7 @@ class BankAccount
 
     public function withdraw($amount)
     {
-        if ($amount > 0 && $amount <= $this->balance) {
+        if (($amount > 0) && ($amount <= $this->balance)) {
             $this->balance -= $amount;
             return "Withdrew $amount successfully.";
         }
@@ -43,3 +54,13 @@ class BankAccount
         ];
     }
 }
+
+$cuenta1 = new BankAccount('0001', 'Miguel', 0, 'Corriente');
+
+// echo $cuenta1->balance();
+echo $cuenta1->deposit(8) . "\n";
+echo $cuenta1->deposit(199) . "\n";
+// echo $cuenta1->balance() . "\n";
+echo $cuenta1->withdraw(200) . "\n";
+// echo $cuenta1->balance() . "\n";
+echo json_encode($cuenta1->accountSummary());

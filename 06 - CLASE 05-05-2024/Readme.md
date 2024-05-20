@@ -48,7 +48,7 @@ $persona1->saludar(); // Imprime: Hola, mi nombre es Juan y tengo 25 años.
 La encapsulación es el concepto de ocultar la implementación interna de un objeto y solo permitir el acceso controlado a sus propiedades y métodos. En PHP, podemos definir la visibilidad de las propiedades y métodos utilizando los modificadores de acceso: `public`, `private` y `protected`.
 
 - `public`: Accesible desde cualquier parte del código.
-- `private`: Accesible solo desde la propia clase.
+- `private`: Accesible solo desde la **propia** clase.
 - `protected`: Accesible desde la propia clase y las clases heredadas.
 
 Veamos un ejemplo de encapsulación:
