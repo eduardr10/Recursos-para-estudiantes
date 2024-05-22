@@ -10,7 +10,7 @@
 <body>
     <h1>Listado de productos</h1>
 
-    <table border=1>
+    <table>
         <thead>
             <tr>
                 <th>ID</th>
